@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	font: "微软雅黑" 16px;
+	list-style: none;
+}
+/*导航区*/
+#nav ul{
+	width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 25px;
+	
+}
+ul li{
+	float: left;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	background-color:#007FFF;
+	text-align: center;
+}
+ul li:hover{
+	background-color:#777620;
+	color:blue;
+}
+#Second{
+	display: none;
+	width: 800px;
+	margin: 0 auto;
+}
+#Second ul{
+	width: 120px;
+	margin-top: 0px;
+	
+}
+#Second ul li{
+	float: none;
+	margin-left: 240px;
+}
+/*商品区*/
+#blank{
+	width: 800px;
+	margin: 0 auto;
+}
+tr{
+	
+}
+td{
+	width:120px;
+	height:35px;
+	line-height: 35px;
+	text-align: center;
+	border-bottom: 1px solid darkgoldenrod;
+}
